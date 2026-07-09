@@ -1,0 +1,25 @@
+# Pacotes instalados via pacman (um por linha; # é comentário).
+# Aplicado com: sudo pacman -S --needed --noconfirm
+
+# shell
+zsh
+
+# controle de versão / GitHub
+git
+github-cli
+
+# utilitários de terminal
+fzf
+zoxide
+unzip
+wget
+
+# necessários pelo sandbox do Codex
+socat
+bubblewrap
+
+# build (necessário para o yay/AUR e compilações em geral)
+base-devel
+
+# editores
+vim

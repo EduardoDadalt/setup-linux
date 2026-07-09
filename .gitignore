@@ -1,0 +1,9 @@
+# Backups criados pelo link_tree quando um dotfile pré-existente é substituído
+*.bak-*
+
+# Nada de segredos no repo. Estes arquivos contêm tokens e NÃO devem ser versionados
+# (ficam só na máquina; ver README, seção "passos manuais"):
+#   ~/.config/gh/hosts.yml   (token do gh auth login)
+#   ~/.config/gh/config.yml
+#   ~/.claude.json           (credenciais do Claude Code)
+#   ~/.codex/                (credenciais do Codex)
